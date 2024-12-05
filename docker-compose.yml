@@ -21,6 +21,8 @@
          - my_network  # Подключаем к сети
        restart: always  # Автоматический перезапуск контейнера
 
+   volumes:
+     data-volume:  # Определяем volume для сохранения данных
 
    networks:
      my_network45:  # Создаем новую сеть
