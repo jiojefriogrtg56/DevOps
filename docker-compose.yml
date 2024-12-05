@@ -25,5 +25,5 @@
      data-volume:  # Определяем volume для сохранения данных
 
    networks:
-     my_network45:  # Создаем новую сеть
+     my_network:  # Создаем новую сеть
        driver: bridge  # Используем драйвер bridge для сети
